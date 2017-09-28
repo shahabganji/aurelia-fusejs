@@ -37,4 +37,4 @@ define(["require", "exports", "./deep"], function (require, exports, deep_1) {
     exports.FuseHighlightValueConverter = FuseHighlightValueConverter;
 });
 
-//# sourceMappingURL=fuse-highlighter.js.map
+//# sourceMappingURL=fuse-highlight.js.map

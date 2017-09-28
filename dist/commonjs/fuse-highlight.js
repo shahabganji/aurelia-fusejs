@@ -36,4 +36,4 @@ var FuseHighlightValueConverter = (function () {
 }());
 exports.FuseHighlightValueConverter = FuseHighlightValueConverter;
 
-//# sourceMappingURL=fuse-highlighter.js.map
+//# sourceMappingURL=fuse-highlight.js.map

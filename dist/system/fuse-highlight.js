@@ -47,4 +47,4 @@ System.register(["./deep"], function (exports_1, context_1) {
     };
 });
 
-//# sourceMappingURL=fuse-highlighter.js.map
+//# sourceMappingURL=fuse-highlight.js.map

@@ -3,7 +3,7 @@ System.register(["aurelia-framework"], function (exports_1, context_1) {
     function configure(config) {
         config.globalResources([
             aurelia_framework_1.PLATFORM.moduleName('./fusejs'),
-            aurelia_framework_1.PLATFORM.moduleName('./fuse-highlighter')
+            aurelia_framework_1.PLATFORM.moduleName('./fuse-highlight')
         ]);
     }
     exports_1("configure", configure);
