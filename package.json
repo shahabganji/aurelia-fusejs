@@ -13,7 +13,7 @@
     "url": "https://github.com/shahabganji/aurelia-fusejs/issues"
   },
   "license": "MIT",
-  "author": "Saeed ( Shahab ) Ganji <shahab.ganji@gmail.com>",
+  "author": "Saeed Ganji (Shahab) <shahabganji@gmail.com>",
   "main": "dist/amd/aurelia-fuse.js",
   "typings": "dist/amd/aurelia-fuse.d.ts",
   "repository": {

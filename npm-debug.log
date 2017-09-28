@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/shahab/Documents/Sources/git-projects/aurelia-fusejs',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/shahab/.npm/aurelia-fusejs/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/shahab/.npm correctMkdir not in flight; initializing
+10 info lifecycle aurelia-fusejs@1.0.0~prepublish: aurelia-fusejs@1.0.0
+11 verbose lifecycle aurelia-fusejs@1.0.0~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle aurelia-fusejs@1.0.0~prepublish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/shahab/Documents/Sources/git-projects/aurelia-fusejs/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/MongoDB_64-3.0.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Java/Apache/apache-ant/bin:/Library/Java/Apache/apache-maven/bin:/Library/Java/Apache/apache-tomcat/bin:/Applications/PostgreSQL/9.5/bin:NODEJS_HOME:/Applications/redis-3.2.0/src:/Library/Java/Apache/apache-activemq/bin/macosx:/Library/Java/Oracle/OpenMQ_5.1/mq/bin:/Library/Android/android-sdk-macosx/tools:/Library/Android/android-sdk-macosx/tools/bin:/Library/Android/android-sdk-macosx/platform-tools:/Applications/rabbitmq_server-3.6.6/sbin
+13 verbose lifecycle aurelia-fusejs@1.0.0~prepublish: CWD: /Users/shahab/Documents/Sources/git-projects/aurelia-fusejs
+14 silly lifecycle aurelia-fusejs@1.0.0~prepublish: Args: [ '-c', 'typings install' ]
+15 silly lifecycle aurelia-fusejs@1.0.0~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ '/Users/shahab/.npm/aurelia-fusejs/1.0.0/package.tgz',
+16 verbose tar pack   '/Users/shahab/Documents/Sources/git-projects/aurelia-fusejs' ]
+17 verbose tarball /Users/shahab/.npm/aurelia-fusejs/1.0.0/package.tgz
+18 verbose folder /Users/shahab/Documents/Sources/git-projects/aurelia-fusejs
+19 verbose addLocalTarball adding from inside cache /Users/shahab/.npm/aurelia-fusejs/1.0.0/package.tgz
+20 verbose correctMkdir /Users/shahab/.npm correctMkdir not in flight; initializing
+21 silly cache afterAdd aurelia-fusejs@1.0.0
+22 verbose afterAdd /Users/shahab/.npm/aurelia-fusejs/1.0.0/package/package.json not in flight; writing
+23 verbose correctMkdir /Users/shahab/.npm correctMkdir not in flight; initializing
+24 verbose afterAdd /Users/shahab/.npm/aurelia-fusejs/1.0.0/package/package.json written
+25 silly publish { name: 'aurelia-fusejs',
+25 silly publish   version: '1.0.0',
+25 silly publish   description: 'An Aurelia plugin in which there is value converters for fuse.js',
+25 silly publish   keywords: [ 'aurelia', 'fuse.js', 'aurelia fuse.js', 'aurelia fuzzy' ],
+25 silly publish   homepage: 'https://github.com/shahabganji/aurelia-fusejs',
+25 silly publish   bugs: { url: 'https://github.com/shahabganji/aurelia-fusejs/issues' },
+25 silly publish   license: 'MIT',
+25 silly publish   author:
+25 silly publish    { name: 'Saeed Ganji',
+25 silly publish      email: 'shahabganji@gmail.com',
+25 silly publish      url: 'Shahab' },
+25 silly publish   main: 'dist/amd/aurelia-fuse.js',
+25 silly publish   typings: 'dist/amd/aurelia-fuse.d.ts',
+25 silly publish   repository:
+25 silly publish    { type: 'git',
+25 silly publish      url: 'git+https://github.com/shahabganji/aurelia-fusejs.git' },
+25 silly publish   scripts: { prepublish: 'typings install' },
+25 silly publish   devDependencies:
+25 silly publish    { 'browser-sync': '^2.18.6',
+25 silly publish      del: '^2.2.2',
+25 silly publish      gulp: '^3.9.1',
+25 silly publish      'gulp-bump': '^2.5.1',
+25 silly publish      'gulp-changed': '^1.3.2',
+25 silly publish      'gulp-conventional-changelog': '^1.1.0',
+25 silly publish      'gulp-htmlmin': '^3.0.0',
+25 silly publish      'gulp-notify': '^2.2.0',
+25 silly publish      'gulp-plumber': '^1.1.0',
+25 silly publish      'gulp-protractor': '3.0.0',
+25 silly publish      'gulp-sourcemaps': '^2.4.0',
+25 silly publish      'gulp-tslint': '^7.0.1',
+25 silly publish      'gulp-typescript': '^3.1.4',
+25 silly publish      'gulp-yuidoc': '^0.1.2',
+25 silly publish      merge2: '^1.0.3',
+25 silly publish      'object.assign': '^4.0.4',
+25 silly publish      'require-dir': '^0.3.1',
+25 silly publish      'run-sequence': '^1.2.2',
+25 silly publish      tslint: '^4.3.1',
+25 silly publish      typescript: '^2.1.5',
+25 silly publish      typings: '^2.1.0',
+25 silly publish      'vinyl-paths': '^2.1.0',
+25 silly publish      yargs: '^6.6.0' },
+25 silly publish   jspm:
+25 silly publish    { registry: 'npm',
+25 silly publish      jspmPackage: true,
+25 silly publish      main: 'index',
+25 silly publish      format: 'amd',
+25 silly publish      directories: { dist: 'dist/amd' },
+25 silly publish      devDependencies: {} },
+25 silly publish   dependencies: { 'fuse.js': '^3.1.0' },
+25 silly publish   readme: '# aurelia-skeleton-plugin-typescript\n\nThis is not working atm, ( I have no clue what Im doing)\n\n\n* ```npm install``` on root\n* ```npm install && jspm install``` under sample\n\n\n* ```gulp build``` to build plugin\n* ```gulp watch``` to run sample\n\n\n---\nWhen running gulp watch it builds the plugin to "dev" catalog on root, then it builds the sample and loads plugin in the index.html\n',
+25 silly publish   readmeFilename: 'README.md',
+25 silly publish   gitHead: 'c840d91dac87c5fb09ee6e4f9a1087319a820a11',
+25 silly publish   _id: 'aurelia-fusejs@1.0.0',
+25 silly publish   _shasum: '6db34769963bd92415565b363fe0a850a9aa1b2e',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name aurelia-fusejs
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'aurelia-fusejs',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'aurelia-fusejs',
+30 silly mapToRegistry   name: 'aurelia-fusejs',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/aurelia-fusejs
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/shahab/.npm/aurelia-fusejs/1.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/aurelia-fusejs
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 6:48:03 PM
+37 verbose request using bearer token for auth
+38 verbose request id 25c50489ac2d9170
+39 http request PUT https://registry.npmjs.org/aurelia-fusejs
+40 http 403 https://registry.npmjs.org/aurelia-fusejs
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '104',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Thu, 28 Sep 2017 15:18:01 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-hhn1533-HHN',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1506611880.114273,VS0,VE1638',
+41 verbose headers   vary: 'Accept-Encoding, Accept' }
+42 verbose request invalidating /Users/shahab/.npm/registry.npmjs.org/aurelia-fusejs on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: you must verify your email before publishing a new package: https://www.npmjs.com/email-edit : aurelia-fusejs
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+45 verbose statusCode 403
+46 verbose pkgid aurelia-fusejs
+47 verbose cwd /Users/shahab/Documents/Sources/git-projects/aurelia-fusejs
+48 error Darwin 16.7.0
+49 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v6.11.2
+51 error npm  v3.10.10
+52 error code E403
+53 error you must verify your email before publishing a new package: https://www.npmjs.com/email-edit : aurelia-fusejs
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
