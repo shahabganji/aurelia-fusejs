@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/aurelia-fuse.ts"],"names":[],"mappings":";AACA,uDAAqE;AAGrE,mBAA0B,MAA8B;IACtD,MAAM,CAAC,eAAe,CACpB;QACE,4BAAQ,CAAC,UAAU,CAAC,UAAU,CAAC;QAC/B,4BAAQ,CAAC,UAAU,CAAC,oBAAoB,CAAC;KAC1C,CAAC,CAAC;AACP,CAAC;AAND,8BAMC","file":"aurelia-fuse.js","sourceRoot":"src/"}
