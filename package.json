@@ -1,6 +1,6 @@
 {
   "name": "aurelia-fusejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Aurelia plugin in which there is value converters for fuse.js",
   "keywords": [
     "aurelia",
